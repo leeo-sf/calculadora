@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cabecalho{
+    padding: 20px;
+    font-family: monospace;
+    font-size: 23px;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black, rgb(95, 95, 212));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    position: absolute;  /* Colocando posição absoluta */
+    background-color: rgba(0,0,0,0.8);
+    top: 50%;  /* 50% para baixo */
+    left: 50%;  /* 50% para direita */
+    transform: translate(-50%, -50%);  /* Redmensionando (-50% do eixo x / -50% do eixo y) */
+    border-radius: 15px;  /* Arredondar as bordas */
+    padding: 15px;  /* Distância entre os elementos e a borda */
+    box-shadow: 20px 20px 20px rgb(211, 65, 65);  /* Sombreamento */
+}
+
+.botao{
+    width: 50px;  /* Largura */
+    height: 50px;  /* Altura */
+    font-size: 25px;  /* Tamanho do elemento do botão */
+    cursor: pointer;  /* Mudando o cursor para um dedinho */
+    background-color: rgb(31,31,31);  /* Cor do fundo do botão */
+    border: none;  /* Retirando as bordas */
+    color: #fff;  /* Cor do elemento do botão */
+    margin: 3px;  /* Espaço entre os botões */
+}
+
+.botao:hover{  /* Quando passar o mouse por cima */  
+    background-color: black;
+}
+
+#resultado{
+    height: 30px;
+    width: 207px;
+    background-color: white;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+}
